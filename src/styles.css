@@ -12,9 +12,23 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
     Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif,
     'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
-
-  /*
-   * CSS image reference example.
-   */
-  background-image: url('./images/bg-pattern.png');
+}
+.timer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.field {
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+  background-color: rgb(53, 56, 243);
+  display: inline-flex;
+  flex-direction: column;
+  height: 100px;
+  width: 100px;
+  margin: 10px;
+  padding-top: 15px;
+  text-align: center;
+  border-radius: 50%;
 }
